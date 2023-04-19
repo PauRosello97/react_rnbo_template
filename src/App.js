@@ -5,20 +5,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="rnbo-root">
+        <div>
+          <h1 id="patcher-title">Unnamed patcher</h1>
+        </div>
+        <div id="rnbo-clickable-keyboard">
+          <h2>MIDI Keyboard</h2>
+          <em id="no-midi-label">No MIDI input</em>
+        </div>
+        <div id="rnbo-parameter-sliders">
+          <h2>Parameters</h2>
+          <em id="no-param-label">No parameters</em>
+        </div>
+      </div>
     </div>
   );
 }
